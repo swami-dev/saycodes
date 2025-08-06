@@ -17,8 +17,8 @@ const Home = () => {
   return (
     <div className="container my-5">
       <div className="text-center mb-5">
-        <h1 className="display-4">Welcome to SayCodes Academy</h1>
-        <p className="lead">Master Full Stack Development with our structured, beginner-friendly courses.</p>
+        <h1 className="display-4">Resources - Development to Deployment</h1>
+        <p className="lead"> </p>
       </div>
 
       <div className="row g-4">
@@ -38,7 +38,7 @@ const Home = () => {
         {/* Node.js Course */}
         <div className="col-md-6 col-lg-4">
           <div className="card h-100 shadow">
-            <div className="card-body">
+            <div className="card-body  ">
               <h5 className="card-title">Node.js</h5>
               <p className="card-text">
                 Build scalable backend applications using Node.js, Express, and RESTful APIs.
@@ -73,7 +73,42 @@ const Home = () => {
             </div>
           </div>
         </div>
+
+        {/* Django Course */}
+        <div className="col-md-6 col-lg-4">
+          <div className="card h-100 shadow">
+            <div className="card-body">
+              <h5 className="card-title">Linux</h5>
+              <p className="card-text">
+                Learn Django to create secure, powerful web applications using Python and the Django framework.
+              </p>
+              <Link to="/django" className="btn btn-dark">Explore Linux</Link>
+            </div>
+          </div>
+        </div>
+
+
+
+
+                {/* Django Course */}
+        <div className="col-md-6 col-lg-4">
+          <div className="card h-100 shadow">
+            <div className="card-body">
+              <h5 className="card-title">Networking</h5>
+              <p className="card-text">
+                Learn Django to create secure, powerful web applications using Python and the Django framework.
+              </p>
+              <Link to="/django" className="btn btn-dark">Explore Network</Link>
+            </div>
+          </div>
+        </div>
+
+
+
       </div>
+
+
+
 
       <div className="text-center mt-5">
         <p>👨‍💻 Ready to become a full stack developer?</p>
